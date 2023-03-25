@@ -1,0 +1,45 @@
+{
+    "name": "PlacementControls",
+    "maps": [
+        {
+            "name": "PlacementActionMap",
+            "id": "86a2c9c5-fdb1-4422-8530-2197028ee812",
+            "actions": [
+                {
+                    "name": "PlaceObject",
+                    "type": "Button",
+                    "id": "2789798d-544f-4b39-b81d-27f3cb782e14",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c15b1287-e3c0-4141-845e-76e5b83e5158",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de3536be-5083-43a5-ad30-a7097a78a862",
+                    "path": "<XRController>/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
